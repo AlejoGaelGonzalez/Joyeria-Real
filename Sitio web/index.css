@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+#Titulo {
+    font-size: 3em;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Subtitulo {
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    background-color: antiquewhite;
+    
+}
+
+.dark {
+    border-bottom:solid 1px grey;
+    width:100%;
+    height:50px;
+}
+
+#Ingreso {
+    font-size: 2em;
+    font-family: "Playfair Display", serif;
+
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+}
+
+.conteiner2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.botton{
+    background-color: rgb(48, 82, 235);
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    border: 0 0 black;
+    cursor: pointer;
+    font-family: "Roboto Serif", serif
+}
+
+footer{
+    font-family: "Playfair Display", serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+b {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.datos {
+    font-size: 18px;
+}
+
+p {
+    font-weight: 400;
+}
+
+/*#costo-pesos {
+    display: none;
+}
+
+#ganancia-pesos {
+    display: none;
+}
+
+#total{
+    display: none;
+}
+#subtotal {
+    display: none;
+}
+
+#iva {
+    display: none;
+}/*
